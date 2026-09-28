@@ -1,5 +1,7 @@
 # GPS Clock — Breadboard Pinout
 
+DEV NOTE: This Pinout was made by Claude
+
 Pico pin names below are GPIO labels (e.g. `GP4`), not physical pin numbers, as requested.
 
 | Component | Pin on component | Pin name on the Pico | Notes |
