@@ -23,6 +23,10 @@ If powered independently, it would ideally not be linked to the GPS Clock system
 The ECAM would likely have an OLED display as it is able to adapt dependent on the amount of issues present.
 
 Buzzer or sound device would be included to draw attention to any issues, ideally this would be done with a **Piezo Speaker** because of its ability to have distinct audios played for different alerts echoing planes with the following
+
 1. Master Warning: temperature over safe amount, battery about to die - power off required, possible electrical short, etc
 2. Master Caution: High but not dangerous temps, low power, GPS/RTC time determined to be off by more than one second
 3. Other Alerts - Misc.
+
+Buzzer requires a dismiss button to dismiss the alert or alternatively just a physical mute button *(this may cause issues if more alerts commence due to the possibility of them being ignored.)*
+The Buzzer may be designed with LED/s to increase accessibility of the Cyberdeck for hearing impaired
